@@ -1,0 +1,6 @@
+# Réécriture d'URL 
+# On met l'adresse que l'on souhaite voir s'afficher (le modèle) au début, on définit le nombre de 'pages' voulues, puis on rappelle ce nombre via la variable $1 qui va correspondre à l'id du noeud xml.
+RewriteRule ^page([0-3]).html$ index.php?page=$1
+
+# On déclare l'erreur 404 qui redirige vers la page error404.php
+ErrorDocument 404 /error404.php 

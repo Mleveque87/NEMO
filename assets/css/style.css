@@ -1,0 +1,85 @@
+.container {
+    flex: 1 0 auto;
+}
+
+.container.content-page{
+    background-color: rgba(255,255,255,0.6);
+    padding: 0 1rem 0 1rem;
+}
+
+body {
+    background-color: #e8ccbf;
+    background-image: url('/assets/img/bg_site.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: auto;
+    color: #37323e;
+    font-family: 'Ovo', serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav .nav-wrapper{
+    background-color: #cfb9a5;
+    color: #a4a9ad;
+}
+
+.page-footer {
+    background-color: #cfb9a5;
+    color: #a4a9ad;
+}
+.content-page ul li {
+    list-style-type: disc;
+}
+
+.quote .content {
+    font-style: italic;
+    border-left: 0.5rem solid #37323e;
+    padding-left: 1rem;
+    margin-top: 0.5rem;;
+}
+
+.quote .title {
+    font-style: italic;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.quote p.author {
+    font-weight: bold;
+}
+
+ul.content {
+    padding-left: 4rem;
+}
+
+.contactStyle iframe {
+    height: 30rem;
+    width: 30rem;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+img.logo {
+    max-height: 2.2rem;
+    max-width: 2.2rem;    
+}
+
+.whiteForm {
+    background-color: rgba(255,255,255,0.6);
+}
+
+textarea {
+    margin-bottom: 2rem;
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+}
